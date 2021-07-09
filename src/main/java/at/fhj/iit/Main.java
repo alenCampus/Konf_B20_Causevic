@@ -10,5 +10,8 @@ public class Main {
 
         Drink d = new SimpleDrink("Rotwein",l);
         System.out.println(d);
+        
+        System.out.println("--".repeat(20));
+        System.out.println("New Drinks ");
     }
 }
