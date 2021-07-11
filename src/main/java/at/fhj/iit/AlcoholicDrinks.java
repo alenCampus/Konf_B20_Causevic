@@ -1,5 +1,10 @@
 package at.fhj.iit;
 
+/*
+ * Konfig_B20_Causevic
+ * Author: Alen Causevic
+ */
+
 public class AlcoholicDrinks extends Drink {
 
 	protected Liquid l;
