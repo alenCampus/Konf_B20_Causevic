@@ -31,6 +31,11 @@ public class Main {
 		System.out.println(redAce.toString());
 
 		separatorLineTitle(50);
+		System.out.println("Alcoholic Drinks");
+		Liquid beer = new Liquid("Beer", 0.5, 5.2);
+		Drink drink = new AlcoholicDrinks("Gösser", beer);
+		
+		System.out.println(drink);
 
 	}
 
