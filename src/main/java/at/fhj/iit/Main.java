@@ -20,6 +20,7 @@ public class Main {
 		System.out.println("Volume: " + mango.getVolume() + "l");
 		System.out.println("Alcohol: " + mango.getAlcoholPercent() + "%");
 		System.out.println("Alcoholic: " + mango.isAlcoholic());
+		System.out.println(mango.toString());
 
 		separatorLine();
 		AddedDrink redAce = new AddedDrink("Red Ace", 0.75, 0);
@@ -27,9 +28,9 @@ public class Main {
 		System.out.println("Volume: " + redAce.getVolume() + "l");
 		System.out.println("Alcohol: " + redAce.getAlcoholPercent() + "%");
 		System.out.println("Alcoholic: " + redAce.isAlcoholic());
+		System.out.println(redAce.toString());
 
 		separatorLineTitle(50);
-		System.out.println("Alcolic Drinks");
 
 	}
 
