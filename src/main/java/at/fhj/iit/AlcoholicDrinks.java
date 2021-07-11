@@ -28,6 +28,8 @@ public class AlcoholicDrinks extends Drink {
 	}
 
 	public String toString() {
-		return "Simple Drink called " + name + " with " + l.getAlcoholPercent() + " percent alcohol by volume";
+		return "- Alcoholic drink: " + name + "\n" + 
+			   "- Alcohol-percent: " + l.getAlcoholPercent()+"% \n" +
+				"- Volume:   " + l.getVolume() + "l \n";
 	}
 }
