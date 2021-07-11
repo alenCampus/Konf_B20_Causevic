@@ -36,4 +36,8 @@ public class AddedDrink extends Drink {
 		return false;
 	}
 
+	public String toString() {
+		return "New Flavour - " + name + "- with -" + alcoholPercent + "%- percent alcohol by volume";
+	}
+
 }
